@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>2660</w>
+      <h>1450</h>
+    </coordinates>
+    <panel_attributes>com.esame.project::DatasetStructure
+--
+~AnnoSco: String
+~CodScuo: int
+~Gestione: String
+~Nome: String
+~Indirizzo: String
+~Municipio: int
+~NilScuola: String
+~Capienza: int
+~N_classi: int
+~Alunni: int
+~Alunni_m: int
+~Alunni_f: int
+~Alunni_res: int
+~Alunni_nores: int
+~Alunni_ita: int
+~Alunni_ue15: int
+~Alunni_ue: int
+~Alunni_noue: int
+~Alunni_africa: int
+~Alunni_NA: int
+~Alunni_CSA: int
+~Alunni_asia: int
+~Alunni_idk: int
+~Alunni_citt_ita: int
+~Alunni_citt_noita: int
+~Alunni_nocitt: int
+~ID: long
+--
++DatasetStructure(long id, String annosco, int codScuo, String gestione, String nome, String indirizzo, int municipio, String nilScuola, int capienza, int n_classi, int alunni, int alunni_m, int alunni_f, int alunni_res, int alunni_nores, int alunni_ita, int alunni_ue15, int alunni_ue, int alunni_noue, int alunni_africa, int alunni_NA, int alunni_CSA, int alunni_asia, int alunni_idk, int alunni_citt_ita, int alunni_citt_noita, int alunni_nocitt): ctor
++getID(): Long
++setID(Long id): void
++getAnnoSco(): String
++setAnnoSco(String annoSco): void
++getCodScuo(): int
++setCodScuo(int codScuo): void
++getGestione(): String
++setGestione(String gestione): void
++getNome(): String
++setNome(String nome): void
++getIndirizzo(): String
++setIndirizzo(String indirizzo): void
++getMunicipio(): int
++setMunicipio(int municipio): void
++getNilScuola(): String
++setNilScuola(String nilScuola): void
++getCapienza(): int
++setCapienza(int capienza): void
++getN_classi(): int
++setN_classi(int n_classi): void
++getAlunni(): int
++setAlunni(int alunni): void
++getAlunni_m(): int
++setAlunni_m(int alunni_m): void
++getAlunni_f(): int
++setAlunni_f(int alunni_f): void
++getAlunni_res(): int
++setAlunni_res(int alunni_res): void
++getAlunni_nores(): int
++setAlunni_nores(int alunni_nores): void
++getAlunni_ita(): int
++setAlunni_ita(int alunni_ita): void
++getAlunni_ue15(): int
++setAlunni_ue15(int alunni_ue15): void
++getAlunni_ue(): int
++setAlunni_ue(int alunni_ue): void
++getAlunni_noue(): int
++setAlunni_noue(int alunni_noue): void
++getAlunni_africa(): int
++setAlunni_africa(int alunni_africa): void
++getAlunni_NA(): int
++setAlunni_NA(int alunni_NA): void
++getAlunni_CSA(): int
++setAlunni_CSA(int alunni_CSA): void
++getAlunni_asia(): int
++setAlunni_asia(int alunni_asia): void
++getAlunni_idk(): int
++setAlunni_idk(int alunni_idk): void
++getAlunni_citt_ita(): int
++setAlunni_citt_ita(int alunni_citt_ita): void
++getAlunni_citt_noita(): int
++setAlunni_citt_noita(int alunni_citt_noita): void
++getAlunni_nocitt(): int
++setAlunni_nocitt(int alunni_nocitt): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2680</x>
+      <y>10</y>
+      <w>1160</w>
+      <h>1400</h>
+    </coordinates>
+    <panel_attributes>com.esame.project::DatasetStructure
+--
+~AnnoSco: java.lang.String
+~CodScuo: int
+~Gestione: java.lang.String
+~Nome: java.lang.String
+~Indirizzo: java.lang.String
+~Municipio: int
+~NilScuola: java.lang.String
+~Capienza: int
+~N_classi: int
+~Alunni: int
+~Alunni_m: int
+~Alunni_f: int
+~Alunni_res: int
+~Alunni_nores: int
+~Alunni_ita: int
+~Alunni_ue15: int
+~Alunni_ue: int
+~Alunni_noue: int
+~Alunni_africa: int
+~Alunni_NA: int
+~Alunni_CSA: int
+~Alunni_asia: int
+~Alunni_idk: int
+~Alunni_citt_ita: int
+~Alunni_citt_noita: int
+~Alunni_nocitt: int
+--
++DatasetStructure(java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int): ctor
++getAnnoSco(): java.lang.String
++setAnnoSco(java.lang.String): void
++getCodScuo(): int
++setCodScuo(int): void
++getGestione(): java.lang.String
++setGestione(java.lang.String): void
++getNome(): java.lang.String
++setNome(java.lang.String): void
++getIndirizzo(): java.lang.String
++setIndirizzo(java.lang.String): void
++getMunicipio(): int
++setMunicipio(int): void
++getNilScuola(): java.lang.String
++setNilScuola(java.lang.String): void
++getCapienza(): int
++setCapienza(int): void
++getN_classi(): int
++setN_classi(int): void
++getAlunni(): int
++setAlunni(int): void
++getAlunni_m(): int
++setAlunni_m(int): void
++getAlunni_f(): int
++setAlunni_f(int): void
++getAlunni_res(): int
++setAlunni_res(int): void
++getAlunni_nores(): int
++setAlunni_nores(int): void
++getAlunni_ita(): int
++setAlunni_ita(int): void
++getAlunni_ue15(): int
++setAlunni_ue15(int): void
++getAlunni_ue(): int
++setAlunni_ue(int): void
++getAlunni_noue(): int
++setAlunni_noue(int): void
++getAlunni_africa(): int
++setAlunni_africa(int): void
++getAlunni_NA(): int
++setAlunni_NA(int): void
++getAlunni_CSA(): int
++setAlunni_CSA(int): void
++getAlunni_asia(): int
++setAlunni_asia(int): void
++getAlunni_idk(): int
++setAlunni_idk(int): void
++getAlunni_citt_ita(): int
++setAlunni_citt_ita(int): void
++getAlunni_citt_noita(): int
++setAlunni_citt_noita(int): void
++getAlunni_nocitt(): int
++setAlunni_nocitt(int): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>1470</y>
+      <w>770</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>com.esame.project::FilterUtils
+--
+--
++select(Collection&lt;T&gt; src, String fieldName, String operator, Object value): Collection&lt;T&gt;
+-check(Object value, String operator, Object th): boolean
++filtro(String operator, String nome, Integer n_classi, Integer n_alunni): Object
+-Listafiltrata(String nome, Integer n_classi, Integer n_alunni, List filtroN_Alunni, List filtron_Classi): List&lt;DatasetStructure&gt;
+-intersezione(//intersezione tra le liste&#13;
+List filtro1, //intersezione tra le liste&#13;
+List filtro2): //intersezione tra le liste&#13;
+List&lt;DatasetStructure&gt;
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>790</x>
+      <y>1470</y>
+      <w>760</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>com.esame.project::Controller
+--
+--
++Controller(): ctor
++GetAllData(): java.util.List
++Filtri(java.lang.String, java.lang.Integer, java.lang.Integer, boolean): java.lang.Object
++FiltroMaggioreMinore(java.lang.String, java.lang.Integer, java.lang.Integer, boolean, java.lang.String): java.lang.Object
++Unici(java.lang.String): JSONObject
++GetMetadata(): JSONArray
++method(): JSONObject
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1560</x>
+      <y>1470</y>
+      <w>740</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>com.esame.project::FilterUtils
+--
+--
++FilterUtils(): ctor
++select(java.util.Collection, java.lang.String, java.lang.String, java.lang.Object): java.util.Collection
+-check(java.lang.Object, java.lang.String, java.lang.Object): boolean
++filtro(java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, boolean): java.lang.Object
+-Listafiltrata(java.lang.String, java.lang.Integer, java.lang.Integer, java.util.List, java.util.List, java.util.List): java.util.List
+-intersezione(java.util.List, java.util.List): java.util.List
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2310</x>
+      <y>1470</y>
+      <w>710</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>com.esame.project::Controller
+--
+--
++GetAllData(): List&lt;DatasetStructure&gt;
++remove(@PathVariable("id") int index): List&lt;DatasetStructure&gt;
++Unici(//stampa tutti i dati del dataset in formato json&#13;
+@RequestParam(value = "Field", required = false) String campo): //stampa tutti i dati del dataset in formato json&#13;
+JSONObject
++GetMetadata(): JSONArray
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3030</x>
+      <y>1470</y>
+      <w>430</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>com.esame.project::ListGenerator
+--
+-COMMA_DELIMITER = ";": String
+~lista = new ArrayList(): List&lt;DatasetStructure&gt;
+--
++ListGenerator(): ctor
+~getLista(): List&lt;DatasetStructure&gt;
+~setLista(List&lt;DatasetStructure&gt; lista): void
++filterField(String string, String string2, Integer n_classi): ArrayList
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>1670</y>
+      <w>260</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>com.esame.project::ListGenerator
+--
+-COMMA_DELIMITER: java.lang.String
+~lista: java.util.List
+--
++ListGenerator(): ctor
+~getLista(): java.util.List
+~setLista(java.util.List): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>280</x>
+      <y>1670</y>
+      <w>270</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>com.esame.project::MetadataGenerator
+--
+-COMMA_DELIMITER: java.lang.String
+-metadata: JSONArray
+--
++MetadataGenerator(): ctor
++getMetadata(): JSONArray
++setMetadata(JSONArray): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>1670</y>
+      <w>290</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>com.esame.project::MetadataGenerator
+--
+-COMMA_DELIMITER = ";": String
+-metadata = new JSONArray(): JSONArray
+--
++MetadataGenerator(): ctor
++getMetadata(): JSONArray
++setMetadata(JSONArray metadata): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>860</x>
+      <y>1670</y>
+      <w>230</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>com.esame.project::MapGenerator
+--
+-map: JSONObject
+--
++MapGenerator(): ctor
++getMap(): JSONObject
++setMap(JSONObject): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1100</x>
+      <y>1670</y>
+      <w>220</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>com.esame.project::Stats
+--
+-Elementi: JSONObject
+--
++Stats(java.lang.String): ctor
++getElementi(): JSONObject
++setElementi(JSONObject): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1330</x>
+      <y>1670</y>
+      <w>300</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>com.esame.project::Stats
+--
+-Elementi = new JSONObject(): JSONObject
+--
++Stats(String fieldName): ctor
++getElementi(): JSONObject
++setElementi(JSONObject elementi): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1640</x>
+      <y>1670</y>
+      <w>260</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>com.esame.project::ProjectApplication
+--
+--
++ProjectApplication(): ctor
++main(java.lang.String[]): void
+-DownloadDataset(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1910</x>
+      <y>1670</y>
+      <w>520</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+com.esame.project::Filter
+--
+--
++filterField(java.lang.String, java.lang.String, java.lang.Object): java.util.Collection
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2440</x>
+      <y>1670</y>
+      <w>290</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>com.esame.project::ProjectApplicationTests
+--
+--
++ProjectApplicationTests(): ctor
++contextLoads(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2740</x>
+      <y>1670</y>
+      <w>450</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+com.esame.project::Filter
+--
+--
+~filterField(String fieldName, String operator, T value): Collection&lt;E&gt;
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>1820</y>
+      <w>260</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>com.esame.project::ProjectApplication
+--
+--
++main(String[] args): void
+-DownloadDataset(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>280</x>
+      <y>1820</y>
+      <w>290</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>com.esame.project::ProjectApplicationTests
+--
+--
++contextLoads(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
