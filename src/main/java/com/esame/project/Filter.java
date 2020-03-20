@@ -1,8 +1,5 @@
 package com.esame.project;
-/**
- * @author Samuele Leli (s1084424@studenti.univpm.it)
- * @version 1.0
- */
+
 /**
  * Interfaccia tra filtri e lista.
  */

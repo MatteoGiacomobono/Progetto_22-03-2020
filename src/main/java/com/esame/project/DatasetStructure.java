@@ -1,9 +1,6 @@
 package com.esame.project;
 
-/**
- * @author Samuele Leli (s1084424@studenti.univpm.it)
- * @version 1.0
- */
+
 /**
  * Classe che contiene la struttura del dataset.
  */

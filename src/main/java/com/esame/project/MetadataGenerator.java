@@ -7,10 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
-/**
- * @author Samuele Leli (s1084424@studenti.univpm.it)
- * @version 1.0
- */
+
 /**
  * Classe che crea i metadati.
  */
